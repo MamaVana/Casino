@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222831;
+    text-align: auto;
+    align-items: auto;
+    position: relative;
+    top: center;
+    left: center;
+  }
+  
+  .slot-machine {
+    background-color: #31363F;
+    padding: 50px;
+    border-radius: 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: auto;
+    left: 50px;
+  }
+  
+  .display {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+  }
+  
+  .reel {
+    width: 100px;
+    height: 100px;
+    background-color: #222831;
+    border: 1px solid #76ABAE;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: relative;
+    top: 00px;
+    left: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 00px;
+    left: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #EEEEEE;
+    background-color: #76ABAE;
+  }
+  
+  #balance {
+    margin-right: 20px;
+    color: #76ABAE;
+  }
+  
+  .bet-control {
+    display: flex;
+    align-items: center;
+
+  }
+  .winAmountDisplay {
+    color:#76ABAE
+  }
+
+  a {
+    color:white;
+    position: relative;
+    top: 150px;
+    right: 350px;
+    font-size: 20px;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="slot-machine">
+    <div class="display">
+      <div class="reel" id="reel1"></div>
+      <div class="reel" id="reel2"></div>
+      <div class="reel" id="reel3"></div>
+      <div class="reel" id="reel4"></div>
+      <div class="reel" id="reel5"></div>
+    </div>
+    <div class="controls">
+      <span id="winAmount"></span>
+      <button id="spinBtn">Spin</button>
+      <div class="bet-control">
+        <input type="number" id="betAmount" min="50" max="100" value="50">
+        <button id="betBtn">Place Bet</button>
+      </div>
+      <span id="balance">$1000</span>
+    </div>
+  </div>
+  <a href="index.html" class="next">Go to Blackjack</a>
+  <script src="script.js"></script>
+</body>
+</html>
